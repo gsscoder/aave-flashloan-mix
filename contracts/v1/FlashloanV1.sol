@@ -1,4 +1,4 @@
-pragma solidity ^0.6.6;
+pragma solidity ^0.8.17;
 
 import "./aave/FlashLoanReceiverBaseV1.sol";
 import "../../interfaces/v1/ILendingPoolAddressesProviderV1.sol";

@@ -1,4 +1,8 @@
-# Aave Flash Loan Brownie Mix
+# Aave Flash Loan Brownie Mix (fork)
+
+*Original repo [PatrickAlphaC/aave-flashloan-mix](https://github.com/PatrickAlphaC/aave-flashloan-mix) by [PatrickAlphaC](https://github.com/PatrickAlphaC).*
+
+Fork for [Hardhat](https://hardhat.org/) migration. Work in progress. README not updated.
 
 ![Aave Banner](box-img-sm.png)
 
