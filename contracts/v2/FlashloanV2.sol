@@ -5,6 +5,9 @@ import "../../interfaces/v2/ILendingPoolAddressesProviderV2.sol";
 import "../../interfaces/v2/ILendingPoolV2.sol";
 
 contract FlashloanV2 is FlashLoanReceiverBaseV2, Withdrawable {
+
+    using SafeMath for uint256;
+
     constructor(address _addressProvider)
         public
         FlashLoanReceiverBaseV2(_addressProvider)

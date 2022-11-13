@@ -6,6 +6,8 @@ import "../../interfaces/v1/ILendingPoolV1.sol";
 
 contract FlashloanV1 is FlashLoanReceiverBaseV1 {
 
+    using SafeMath for uint256;
+
     constructor(address _addressProvider) FlashLoanReceiverBaseV1(_addressProvider) public {}
 
     /**
