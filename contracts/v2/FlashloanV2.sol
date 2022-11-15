@@ -9,7 +9,6 @@ contract FlashloanV2 is FlashLoanReceiverBaseV2, Withdrawable {
     using SafeMath for uint256;
 
     constructor(address _addressProvider)
-        public
         FlashLoanReceiverBaseV2(_addressProvider)
     {}
 

@@ -8,7 +8,7 @@ contract FlashloanV1 is FlashLoanReceiverBaseV1 {
 
     using SafeMath for uint256;
 
-    constructor(address _addressProvider) FlashLoanReceiverBaseV1(_addressProvider) public {}
+    constructor(address _addressProvider) FlashLoanReceiverBaseV1(_addressProvider) {}
 
     /**
         This function is called after your contract has received the flash loaned amount
